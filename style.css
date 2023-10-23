@@ -6,14 +6,16 @@ body{
 
 h1{
     text-align: center;
+    text-decoration:color rgb(63, 43, 43) rgb(187, 223, 187) rgb(43, 43, 168) ;
 }
 .navbar ul{
     list-style-type:none;
-    background-color: green;
+    background-color: rgba(0,0,0,.7);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     text-align: center;
+   
 }
 .navbar a{
     color: white;
@@ -23,20 +25,25 @@ h1{
     text-align: center;
 }
 .navbar a:hover{
-    background-color: rgb(3, 51, 3);
+    background-color: rgb(175, 50, 5);
 }
 .navbar li{
     float: left;
 }
 
 .text-zivo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 500px;
     margin-right: 500px;
-    background-color: greenyellow;
+    background-color: rgba(0,0,0,.7);
+    font-size: bold;
     padding: 50px;
-    border-left:solid rgb(86, 99, 88);
-    border-right: solid rgb(86, 99, 88);
+    border-left: solid rgba(0,0,0,.7);
+    border-right: solid: rgba(0,0,0,.7);
     border-style: none
+    : inline-block
+    
+    
     
     
 }
@@ -44,3 +51,105 @@ img{
     height: 50px;
     
 }
+background-image{
+    height: 50%;
+}
+p{
+    color: white;
+}
+.text-nadpis{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    background-color: rgba(0,0,0,.7);
+    font-style: italic;
+    text-decoration-thickness: 50px;
+    padding: 50px;
+    border-left: solid rgba(0,0,0,.7);
+    border-right: solid: rgba(0,0,0,.7);
+    border-style: none;
+    margin-left: 500px;
+    margin-right: 500px;
+    
+}
+button{
+    background-image: url(3721672_instagram_icon.png);
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    border: none;
+    height: 85px;
+    width: 85px;
+}
+table {
+    justify-content: center;
+    align-content: center;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+    width: 40%;
+    height: 80%;
+    margin-left: 30%;
+    margin-top: 10%;
+
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  html {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+  }
+  
+  thead th,
+  tfoot th {
+    font-family: "Rock Salt", cursive;
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  thead,
+  tfoot {
+    background: url(leopardskin.jpg);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  thead th,
+  tfoot th,
+  tfoot td {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.5)
+    );
+    border: 3px solid rgb(14, 13, 13);
+  }
